@@ -1,0 +1,35 @@
+html {
+    font-size: 10px;
+}
+
+#adImg {
+    position: absolute;
+    max-width:25%;
+    left: 111em;
+    top:2em;
+    z-index: 3;
+}
+
+
+#bottomImg img{
+    position:absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+#middleImg {
+    position:absolute;
+    max-width:80%;
+    left: 30em;
+    top: 15em;
+    z-index: 1;
+}
+
+#topImg {
+    position:absolute;
+    max-width: 40%;
+    left:.2em;
+    top:46em;
+    z-index: 2;
+}
