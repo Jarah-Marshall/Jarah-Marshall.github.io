@@ -8,24 +8,19 @@ body {
   img {
       max-width: 100%;
       display: block;
-      float: left;
-      margin: 1em;
   }
   
   .logo {
     font-size: 200%;
     padding: 50px 20px;
     margin: 0 auto;
-    max-width: 980px;
+    max-width: 100%;
   }
   
   .grid {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr ;
   }
   
   nav {
@@ -36,11 +31,11 @@ body {
   }
   
   nav ul {
-    margin: 0;
+    margin: 0 auto;
     padding: 0vw;
-    list-style: none;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
   }
   
   nav a {
@@ -50,28 +45,52 @@ body {
   }
   
   .photos {
-    float: right;
     list-style: none;
     margin: 0;
     padding: 0;
-    max-width: 50%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 96%;
   }
 
   .feature {
       width: 200px;
   }
-
-  article p{
-    display: flex;
-    flex-direction: column;
-    
+  .grid article img {
+    padding: .5em;
   }
 
-  aside {
-    display: flex;
-    flex-direction: column;
-    float: right;
+  .grid article p{
+    padding: .20em;
+    margin:.5em .5em;
+  }
+
+  @media screen and (max-width: 500px) {
+    nav{
+      width: 100%;
+    }
+    nav ul{
+      flex-direction: column;
+    }
+
+    nav a{
+      width:100%
+    }
+  }
+
+
+  @media screen and (min-width: 500px){
+    img{
+      float: left;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 5fr 1.75fr;
+      
+    }
+    .photos {
+      max-width: 96%;
+      float: right;
+      gap: 1px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
   }
