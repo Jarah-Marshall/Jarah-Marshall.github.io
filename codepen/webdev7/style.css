@@ -79,6 +79,7 @@ body {
   }
   50%, to {
     stroke-dashoffset: -15.99;
+  
   }
 }
 @keyframes scene-move {
@@ -87,5 +88,6 @@ body {
   }
   to {
     transform: translate(-16px, 0);
+
   }
 }

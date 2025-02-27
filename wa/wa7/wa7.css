@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: darkblue;
+    font-family: fantasy;
+    background-color: #D2E8E3;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:50px;
+    background-color: #D8B08C;
+}
+nav a{
+    width:20vw;
+    text-align: center;
+    text-decoration: none;
+    color:darkblue;
+    transition: background-color 1s;
+}
+
+nav a:hover{
+    background-color: darkblue;
+    color: #D8B08C;  
+}
+
+
+img{
+    width:50vw;
+    height: 40vh;
+    padding: 30px;
+}
+
+img:hover{
+    transform: translate(0vw, 10vh) rotate(360deg) scale(1.5);
+    transition: 2.5s;
+}
+
+#blue-ball{
+    background-color: #0F6466;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:12vw;
+    top:.5em;
+    animation-name: ballMove;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+}
+
+.secret {
+    width: 3.5em;
+    color: transparent;
+    transition: background-color .5s;
+}
+
+.secret:hover {
+    background-color: #0F6466;
+    color: white;
+    transform: scale(2) rotate(720deg);
+    transition:1s;
+}
+
+@keyframes ballMove {
+    to{
+        translate: 0 0;
+        width: 5px;
+        height:5px;
+    }
+
+    25%{
+        translate: 75vw 0;
+        width: 20px;
+        height:20px;
+    }
+
+    50%{
+        translate: 75vw 12vh;
+        width: 35px;
+        height:35px;
+    }
+
+    75%{
+        translate: 0 12vh;
+        width: 50px;
+        height:50px;
+    }
+
+    from{
+        translate: 0 0;
+        width: 5px;
+        height: 5px;
+    }
+}
