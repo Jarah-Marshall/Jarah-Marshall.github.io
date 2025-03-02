@@ -6,8 +6,8 @@
 }
 
 :root {
-  --hue: 223;
-  --sat: 90%;
+  --hue: 400;
+  --sat: 5%;
   --primary1: hsl(var(--hue),var(--sat),90%);
   --primary5: hsl(var(--hue),var(--sat),50%);
   --primary9: hsl(var(--hue),var(--sat),10%);
@@ -31,11 +31,11 @@ body {
 .pl {
   display: block;
   margin: auto;
-  width: 16em;
+  width: 6em;
   height: auto;
 }
 .pl__curve, .pl__dot, .pl__scene {
-  animation-duration: 1s;
+  animation-duration: .2s;
   animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
   animation-iteration-count: infinite;
 }
