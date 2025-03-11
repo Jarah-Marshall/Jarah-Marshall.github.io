@@ -6,14 +6,15 @@ body{
     font-family: fantasy;
     background-color: #D2E8E3;
 }
+
 nav{
-    height: 50vh;
+    height: 50px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    height:50px;
     background-color: #D8B08C;
 }
+
 nav a{
     width:20vw;
     text-align: center;

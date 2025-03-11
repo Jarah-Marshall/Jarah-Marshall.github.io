@@ -1,0 +1,64 @@
+body {
+    background-color: #000000;
+    color: #FFE81F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* .moon {
+    width: 11vw;
+    height: 20vh;
+    display: flex;
+    max-width: 100%;
+    min-height: 5vh;
+    min-width: 2.5vw;
+    margin-right: 1em;
+    align-self:flex-start;
+} */
+
+.concert {
+    max-width: 90%;
+    padding: 2em 9em;
+}
+
+h1, h2, h3{
+    /* position:center; */
+    /* top: auto; */
+    margin: 0em;
+}
+
+div {
+    margin: 5em;
+    padding: 2em;
+    border: 2px dotted white;
+    border-radius: 2em;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:40px;
+    background-color: #000000;
+    border: 3px solid #FFE81F;
+    top: 0;
+    position: sticky;
+}
+
+nav a {
+    color: #FFE81F;
+    width: 14.3vw;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: .5em 5em;
+    transition: background-color 1s;
+}
+
+nav :hover {
+    background-color: #FFE81F;
+    color: #000000;
+}
