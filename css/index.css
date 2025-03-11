@@ -7,10 +7,10 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.moon1 .moon2 {
+/* .moon1 .moon2 {
     display: flex;
     flex-direction: row;
-}
+} */
 
 .moon1 {
     width: 1.5vw;
