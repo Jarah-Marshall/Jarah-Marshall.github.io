@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-image: url(./images/Stars.jpg);
     color: #FFE81F;
     display: flex; 
     flex-direction: column;
