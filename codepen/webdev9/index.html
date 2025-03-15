@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Popover CSS API Demo</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<button popovertarget="popup">Open Popup</button>
+<dialog id="popup" popover="auto">
+  <button class="closer" popovertarget="popup" popovertargetaction="hide">X</button>
+  <div class="content">
+    <p>Using the  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Popover_API/Using" target="_blank">Popover </a> API.</p>
+    <p>just imagine the theme from old Adam West Batman's screen transistion music here during the animation :)</p>
+    <p>popover=manual will disable the escape button, or clicking on the backdrop to close the popover, here you will have to click on the close button (x) to close the popover if you change that to manual in the HTML code.</p>
+  </div>
+</dialog>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
