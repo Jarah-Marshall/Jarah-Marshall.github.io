@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginning JScript - ICA10</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .circle {
+            background-color: yellow;
+            height: 400px;
+            width: 400px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+      }
+
+      .run {
+        margin-top: 30px;
+        font-size: 50px;
+        color: white;
+      }
+      @keyframes runAway {
+        from {
+            translate: 0;
+        }
+        25% {
+            color:brown;
+        }
+        50% {
+            color: darkseagreen;
+        }
+        75% {
+            color: salmon;
+        }
+        to {
+            translate: 30em;
+            color: lightskyblue;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class ="circle"></div>
+    <button>Click Me to see the Goat!</button>
+
+    <div class="run">Click me too!</div>
+    
+    <script>
+        let button = document.querySelector('button');
+        button.addEventListener('click', changeBackground);
+
+       function changeBackground() {
+            let newStyle = document.querySelector('.circle');
+            let styleChanges = "background-image: url(LebronSunshine.jpg); border-radius: 0%; border: 3px solid yellow;"
+            newStyle.style = styleChanges;
+       }
+
+       let run = document.querySelector('.run')
+       run.addEventListener('click', makeRun);
+
+       function makeRun() {
+            let runAnimation = document.querySelector('.run');
+            let animationSpecs = "animation-name: runAway; animation-duration: 4s; animation-iteration-count: 1"
+            runAnimation.style = animationSpecs;
+            runAnimation.textContent = "I'm running away!";
+       }
+    </script>
+</body>
+</html>
