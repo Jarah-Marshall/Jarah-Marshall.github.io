@@ -10,11 +10,11 @@ const imgArray = ['../waImages/pic1.jpg', '../waImages/pic2.jpg', '../waImages/p
 
 /* Declaring the alternative text for each image file */
 
-const altTxts = {'../waImages/pic1.jpg' : 'Closeup of a human eye',
-'../waImages/pic2.jpg' : 'An alleged space rock',
-'../waImages/pic3.jpg' : 'Pretty purple flowers',
-'../waImages/pic4.jpg' : 'Egyptian art',
-'../waImages/pic5.jpg' : 'A butterfly with beautiful wings'}; 
+const altTxts = {'../waImages/pic1.jpg' : 'Kermit with Shades',
+'../waImages/pic2.jpg' : 'Me with snow on my hair',
+'../waImages/pic3.jpg' : 'Me and my momma',
+'../waImages/pic4.jpg' : 'Me playing saxophone',
+'../waImages/pic5.jpg' : 'Snoopy on Vacation'}; 
 
 /* Looping through images */
 
