@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const car = {
+            make: "Ford",
+            model: "F-150",
+        }; // {} means a dictionary
+
+        const car1 = {
+            make: "Mazda",
+            model: "CX-5",
+        };
+
+        const carList = ['Ford', 'Mazda', 'Honda'];
+        console.log(carList[1]);
+        console.log(car["model"]);
+
+        // function cars(make, model)
+        // {
+        //     this.make = make;
+        //     this.model = model;
+        // }
+
+        // const car2 = cars("Toyota", "Rav4");
+        // console.log(car2.make);
+
+        class Rectangle
+        {
+            constructor(height, width)
+            {
+                this.height = height;
+                this.width=width;
+            }
+
+            getArea () 
+            {
+                return this.height * this.width;
+            }
+        }
+
+        const rec1 = new Rectangle(10, 22);
+        console.log(rec1.width);
+        console.log(rect1.getArea());
+        </script>
+</body>
+</html>
