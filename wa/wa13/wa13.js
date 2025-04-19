@@ -66,6 +66,7 @@ for(let i = 0; i < 4; i++)
         console.log(`${employeeInfo.employees[i].firstName} is eligible for a raise! Their new salary is ${newSalary}`);
     }
 }
+console.log("Updated Array", employeeInfo);
 //Problem 6
 
 const WorkingFromHome = ['Anna', 'Sam'];
