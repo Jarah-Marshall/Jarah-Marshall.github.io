@@ -1,0 +1,28 @@
+canvas 
+{
+    background-image: url(./JSimages/starsBckgrnd.jpg);
+    position:absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 10px;
+    height: 10px;
+}
+#sub 
+{
+    position: absolute;
+    top: 100px;
+    left: 47%;
+}   
+
+#res 
+{
+    position: absolute;
+    top: 100px;
+    left: 51%;
+}
