@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.my-image {
+
+    height: 500px;
+    width: auto;
+    margin: 75px;
+
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+.navbar img {
+    height: 50px;
+    width: 50px;
+    margin-top: 0;
+}  
+
+div p {
+    background-color: goldenrod;
+    padding: 15px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+footer {
+    max-width: 100%
+}
+
+i {
+    font-size: 30px;
+    color: white;
+}
+

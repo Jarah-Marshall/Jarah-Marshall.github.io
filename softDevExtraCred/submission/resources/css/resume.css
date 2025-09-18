@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+
+
+.navbar {
+    font-size: 20px;
+}
+
+.navbar img {
+    height: 50px;
+    width: 50px;
+    margin-top: 0;
+}
+
+footer {
+    max-width: 100%
+}
+
+i {
+    font-size: 30px;
+    color: white;
+}
+
+.row {
+    background-color: white;
+    font-size: 20px;
+    margin: 50px;
+}

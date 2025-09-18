@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+.navbar img {
+    height: 50px;
+    width: 50px;
+    padding:0;
+}  
+
+footer {
+    max-width: 100%;
+}
+
+i {
+    font-size: 30px;
+    color: white;
+}
+
+.card-group {
+    margin: 50px 100px;
+}
+
+.card-img-top {
+    height: 350px;
+    width: auto;
+}
+
+.card-body {
+    background-color: goldenrod;
+}
